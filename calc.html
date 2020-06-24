@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <p id="calculator"><img src="calc.png">Calculator</p>
+        <div id="header"><a>View</a> <a>Edit</a> <a>Help</a></div>
+        <div id="content">
+            <p id="emp"></p>
+            <pre>
+                0000 0000 0000 0000             0000 0000 0000 0000
+                63                              47             32
+                0000 0000 0000 0000             0000 0000 0000 0000
+                31                              15             0
+            </pre>
+            <div class="sidebarL">
+                <div id="top">
+                    <label><input type="radio" name="top">Hex</label>
+                    <br><label><input type="radio" name="top">Dec</label>
+                    <br><label><input type="radio" name="top">Oct</label>
+                    <br><label><input type="radio" name="top">Bin</label>
+                </div>
+                <div id="bot">
+                    <label><input type="radio" name="bot">Qword</label>
+                    <br><label><input type="radio" name="bot" checked>Dword</label>
+                    <br><label><input type="radio" name="bot">Word</label>
+                    <br><label><input type="radio" name="bot">Byte</label>
+                </div>
+            </div>
+            <div id="sidebarR">
+                <table>
+                    <tr>
+                        <td><button></button></td>
+                        <td><button>Mod</button></td>
+                        <td><button>A</button></td>
+                        <td><button>MC</button></td>
+                        <td><button>MR</button></td>
+                        <td><button>MS</button></td>
+                        <td><button>M+</button></td>
+                        <td><button>M</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>(</button></td>
+                        <td><button>)</button></td>
+                        <td><button>B</button></td>
+                        <td><button>&larr;</button></td>
+                        <td><button>CE</button></td>
+                        <td><button>C</button></td>
+                        <td><button>+/-</button></td>
+                        <td><button>&radic;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>Rol</button></td>
+                        <td><button>Ror</button></td>
+                        <td><button>C</button></td>
+                        <td><button>7</button></td>
+                        <td><button>8</button></td>
+                        <td><button>9</button></td>
+                        <td><button>/</button></td>
+                        <td><button>%</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>Or</button></td>
+                        <td><button>Xor</button></td>
+                        <td><button>D</button></td>
+                        <td><button>4</button></td>
+                        <td><button>5</button></td>
+                        <td><button>6</button></td>
+                        <td><button>*</button></td>
+                        <td><button>1/x-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>Lsh</button></td>
+                        <td><button>Rsh</button></td>
+                        <td><button>E</button></td>
+                        <td><button>1</button></td>
+                        <td><button>2</button></td>
+                        <td><button>3</button></td>
+                        <td><button>-</button></td>
+                        <td rowspan="2"><button>=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>Not</button></td>
+                        <td><button>And</button></td>
+                        <td><button>F</button></td>
+                        <td colspan="2"><button>0</button></td>
+                        <td><button>,</button></td>
+                        <td><button>+</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
