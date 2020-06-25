@@ -9,6 +9,7 @@ body {
     background-color: #d5f8f8;
     top: 0;
     left: 0;
+    padding-bottom: 4px;
 }
 
 img {
@@ -50,12 +51,29 @@ a:hover {
     background-color: #fcfcfc;
 }
 
-pre {
+
+#num {
     width: 592px;
     border: 1px solid #333333;
     background-color: #e5e6fa;
     margin: 3px auto;
     padding-top: 13px;
+}
+
+#number {
+    padding-left: 120px;
+}
+
+.span_1 {
+    padding-left: 115px;
+}
+
+.span_2 {
+    padding-left: 223px;
+}
+
+.span_3 {
+    padding-left: 78px;
 }
 
 #top,
@@ -79,9 +97,9 @@ input {
 }
 
 table {
-    margin: 3px;
+    margin: 4px;
     width: 479px;
-    height: 286px;
+    height: 287px;
     table-layout: fixed;
 }
 
